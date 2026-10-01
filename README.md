@@ -1,37 +1,33 @@
-# Dashboard de Planificación y Control – Proyecto Vial
+# Dashboard Ejecutivo de Planificación y Control – Proyecto Vial
 
-Dashboard desarrollado con Python + Streamlit a partir del archivo:
+Versión mejorada del dashboard Streamlit, construida con los datos del archivo
 `Proyecto_Vial_Completo_Actualizado(1).xlsx`.
 
-## Contenido del dashboard
+## Mejoras incluidas
 
-- Resumen ejecutivo de 720 días / 24 meses.
+- Panel ejecutivo con KPIs.
 - Curva S programada por Horas-Hombre.
-- Histograma mensual de personal.
+- Análisis mensual de recursos.
+- Identificación y visualización de ruta crítica.
+- Línea de tiempo mensual de actividades críticas.
 - Matriz de rendimientos y cuadrillas.
-- Identificación de partidas en ruta crítica.
-- Recálculo y escenarios de excavación en roca fija.
+- Simulador interactivo para excavación en roca fija.
+- Comparación de escenarios de eficiencia.
+- Filtros por grupo de partidas y criticidad.
 - Descarga de datos en CSV.
+- Diseño optimizado para exposición y Streamlit Cloud.
 
-## Archivos principales
+## Despliegue
 
-- `app.py`: aplicación Streamlit.
-- `requirements.txt`: dependencias.
-- `rendimientos_cuadrillas.csv`
-- `histograma_personal.csv`
-- `curva_s_hh.csv`
-- `personal_mensual.csv`
-- `escenarios_roca_fija.csv`
-- `resumen_proyecto.csv`
-- Archivo Excel original incluido como fuente.
+1. Subir todos los archivos a la raíz de un repositorio GitHub.
+2. En Streamlit Community Cloud:
+   - Branch: `main`
+   - Main file path: `app.py`
+3. Presionar Deploy.
 
-## GitHub
+## Dependencias
 
-Subir todos los archivos de esta carpeta a la raíz del repositorio.
-
-## Streamlit Community Cloud
-
-- Branch: `main`
-- Main file path: `app.py`
-
-Después presionar **Deploy**.
+`requirements.txt`:
+- streamlit
+- pandas
+- plotly

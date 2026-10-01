@@ -1,0 +1,24 @@
+PASOS PARA PUBLICAR
+
+GITHUB
+1. Crea o abre tu repositorio.
+2. Sube TODOS los archivos de esta carpeta.
+3. Verifica que app.py, requirements.txt y los CSV estén en la raíz.
+4. Commit changes.
+
+STREAMLIT
+1. Abre Streamlit Community Cloud.
+2. Create app.
+3. Selecciona el repositorio.
+4. Branch: main
+5. Main file path: app.py
+6. Deploy.
+
+IMPORTANTE
+No elimines ninguno de estos CSV:
+- rendimientos_cuadrillas.csv
+- histograma_personal.csv
+- curva_s_hh.csv
+- personal_mensual.csv
+- escenarios_roca_fija.csv
+- resumen_proyecto.csv
