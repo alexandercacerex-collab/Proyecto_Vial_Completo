@@ -1,0 +1,18 @@
+PASO 1 - GITHUB
+1. Crear repositorio público.
+2. Subir TODOS los archivos de esta carpeta.
+3. Confirmar que app.py y requirements.txt estén en la raíz.
+4. Commit changes.
+
+PASO 2 - STREAMLIT
+1. Entrar a Streamlit Community Cloud con GitHub.
+2. Create app.
+3. Seleccionar el repositorio.
+4. Branch: main
+5. Main file path: app.py
+6. Deploy.
+
+Si aparece ModuleNotFoundError, revisar que requirements.txt contenga:
+streamlit
+pandas
+plotly
